@@ -1,0 +1,57 @@
+/* configuración inicial */
+
+/* coloque aca el @font face para llamar la la fuente arimo } */
+@font-face {
+   font-family: fuente;
+   src: url(../fuente/Arimo-Bold.ttf);
+}
+
+/* Puede utilizar dos colores adicionales aparte del negro blanco y gris 
+ */:root {
+  --blanco: #fff;
+  --negro: #000;
+  --gris: #6c757d;
+  --azul: #0d6efd;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #ee0979;
+  --red: #dc3545;
+  --orange: #ff6a00;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+  --tipografia: fuente;
+}
+
+body{
+   /* Coloque acá la fuente para utilizar en todo el sitio */
+   font-family:var(--tipografia);
+}
+
+/* ******** COLOQUE DEBAJO TODOS LOS ESTILOS PERSONALES ******* */
+
+.cont{
+   width: 100%;
+   background-position: center;
+   background-image:url(../imagenes/hero.jpg) ;
+
+}
+.boton{
+   background-color:var(--teal);
+   color: var(--blanco);
+}
+.colort{
+   background-color: var(--green);
+}
+.bcolor{
+    background-color:var(--teal);
+    color: white;
+}
+.bcolor:hover{
+    background-color: rgba(63, 241, 19, 0.521);
+    color: white;
+}
+.contacto{
+   background-color: var(--green);
+}
